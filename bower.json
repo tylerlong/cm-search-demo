@@ -1,0 +1,21 @@
+{
+  "name": "search_replace",
+  "version": "0.0.1",
+  "authors": [
+    "Tyler Long <tyler4long@gmail.com>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cm-searchbox": "~1.0.5",
+    "codemirror": "~5.0.0"
+  }
+}
