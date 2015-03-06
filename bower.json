@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
+		"jquery": null,
     "cm-searchbox": "~1.0.5",
     "codemirror": "~5.0.0"
   }

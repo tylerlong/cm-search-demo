@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="bower_components/codemirror/addon/dialog/dialog.css">
+		<link rel="stylesheet" href="bower_components/codemirror/addon/search/matchesonscrollbar.css">
+		<link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css">
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/codemirror/lib/codemirror.js"></script>
+		<script src="bower_components/codemirror/mode/javascript/javascript.js"></script>
+		<script src="bower_components/codemirror/addon/search/searchcursor.js"></script>
+		<script src="bower_components/codemirror/addon/search/search.js"></script>
+		<script src="bower_components/codemirror/addon/dialog/dialog.js"></script>
+		<script src="bower_components/codemirror/addon/scroll/annotatescrollbar.js"></script>
+		<script src="bower_components/codemirror/addon/search/matchesonscrollbar.js"></script>
+		<script src="bower_components/cm-searchbox/lib/searchbox.js"></script>
+	</head>
+	<body>
+		<script>
+			// $(function(){
+				var editor = CodeMirror(document.body, {
+					value: "function test(){\n\talert('test');\n}",
+					searchbox: true
+				});
+			// });
+		</script>
+	</body>
+</html>
